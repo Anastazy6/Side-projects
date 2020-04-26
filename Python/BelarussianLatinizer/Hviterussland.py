@@ -1,5 +1,5 @@
 #! python3
-import Uczytelniacz_białoruskiego as brus
+import BelarussianLatinizerBatchable as brus
 
 swydd = input("Please type the entire path to the transcribable file\n>>>\t")
 justify = input("Wanna have it justified? (Y/n)\n>>>\t")
