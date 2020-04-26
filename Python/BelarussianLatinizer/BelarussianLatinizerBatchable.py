@@ -123,8 +123,8 @@ def transcribe(cyrylic_string):  # MAIN
     return result
 
 try:
-    print(transcribe_string("Магутны Божа, ўладар сусьветаў,"), flush=True)  # test
-    transcribe_file("example3_BY.txt")  # file test,
+    print(transcribe_string("Магутны Божа, ўладар сусьветаў,    \t\t\t #TEST STRING"), flush=True)  # test
+   # transcribe_file("example3_BY.txt")  # file test,
 except:
     "There's a test function call in the module and Python didn't know how to transcribe \n" \
     "the file, since its path doesn't specify any directory. The file is in the same directory \n" \
