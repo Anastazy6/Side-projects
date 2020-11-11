@@ -12,9 +12,8 @@
 
 # If you somehow find this code useful, you are free to modify, improve or use it
 #   as long as it is for harmless purposes. The code is provided as it is and I
-#   held no responsibility for your actions (such as running it pararelly 2137 times
-#   on 666 machines 420 times a day in order to flood the site's server or whatever else...).
-#   Not cool.
+#   held no responsibility for your actions (such as using it to flood the site's
+#   server or whatever else...). Not cool.
 
 require 'open-uri'
 require 'pry'
